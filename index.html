@@ -143,12 +143,36 @@
               <h6>Deployed Platform :</h6><p>Facebook.</p>
               <h6>Have a Chat :</h6>
               <p><a class="btn btn-danger" href="https://m.me/echobot9000" target="_blank" role="button">Echo_Bot &raquo;</a></p>
-              
+              <div class="fb-messengermessageus" 
+                messenger_app_id="188432768741291" 
+                page_id="1115854058582131"
+                color="blue"
+                size="standard" >
+              </div>  
           </div>
         </div>
         </div>
       </div>
 
+
+      <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '188432768741291',
+      xfbml      : true,
+      version    : 'v3.1'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
 <!--comments section-->
       <div id="com">
       	<div class="container comments">
