@@ -64,5 +64,11 @@ border-top: 1px solid  #2B60DE;
   {
   	font-size: -52px;
   }
-
+@media (min-width: 390px) {
+ 
+  .fb-widget
+  {
+  	height:386px;
+	width:285px;
+  }
 }
